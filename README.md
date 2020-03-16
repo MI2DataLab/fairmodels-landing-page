@@ -1,2 +1,4 @@
 # jakwisn.github.io
-Smacznego
+
+Current use: presentations
+
