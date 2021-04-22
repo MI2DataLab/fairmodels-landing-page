@@ -9,6 +9,7 @@
 
     }
 
+
     #logo {
         margin: auto;
         padding-top: 50px;
@@ -46,7 +47,11 @@
 
     .row.gy-5 {
          width: 100%;
-        margin: auto;
+        margin-top:0px;
+        margin: 20px;
+        margin-left: 50px;
+        margin-right: 50px;
+
     }
 
     .navbar-nav > li {
@@ -75,6 +80,3 @@
         box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
     }
 
-    body {
-        min-width: 500px;
-    }
