@@ -44,6 +44,11 @@
         color: #42b983;
     }
 
+    .row.gy-5 {
+         width: 100%;
+        margin: auto;
+    }
+
     .navbar-nav > li {
         padding-left: 50px;
         padding-right: 50px;
