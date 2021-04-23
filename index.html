@@ -6,12 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+
+    <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
           integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
-            crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet"  href="./css/style.css">
     <title>fairmodels</title>
 </head>
 <body>
@@ -33,7 +31,7 @@
                     <a class="nav-link" href="http://fairmodels.drwhy.ai/reference/index.html">Documentation</a>
                 </li>
 
-                <li class="nav-item">
+                <li id="lol" class="nav-item">
                     <a class="nav-link" href="https://dalex.drwhy.ai/">Fairness in Python</a>
                 </li>
 
@@ -50,103 +48,107 @@
     </div>
 </nav>
 
-<div id="preview">
-    <h1>fairmodels</h1>
-    <h3>A flexible tool for bias detection, visualization, and mitigation</h3>
-    <a href="https://github.com/ModelOriented/fairmodels">
-        <img id="logo" src="img/logo.png" width="400px" class="rounded mx-auto d-block">
-    </a>
-    <div class="badges" style="margin: auto;">
-        <p style="text-align: center; margin: auto">
+    <div id="preview">
+        <h1>fairmodels</h1>
+        <h3>A flexible tool for bias detection, visualization, and mitigation</h3>
 
-            <a class="badge" href="https://github.com/ModelOriented/fairmodels/actions">
-                <img src="https://github.com/ModelOriented/fairmodels/workflows/R-CMD-check/badge.svg" height="25">
-            </a>
-            <a class="badge" href="https://cran.r-project.org/package=fairmodels">
-                <img src="https://www.r-pkg.org/badges/version/fairmodels" height="25">
-            </a>
-            <a class="badge" href="https://cran.r-project.org/package=fairmodels">
-                <img src="https://cranlogs.r-pkg.org/badges/grand-total/fairmodels" height="25">
+            <a href="https://github.com/ModelOriented/fairmodels">
+                <img id="logo" src="img/logo.png" class="rounded mx-auto">
             </a>
 
-            <a class="badge" href="http://drwhy.ai/#eXtraAI">
-                <img src="https://img.shields.io/badge/DrWhy-eXtrAI-4378bf" height="25">
-            </a>
+        <div class="badges" style="margin: auto;">
+            <p style="text-align: center; margin: auto">
 
-        </p>
-    </div>
-</div>
+                <a class="badge" href="https://github.com/ModelOriented/fairmodels/actions">
+                    <img src="https://github.com/ModelOriented/fairmodels/workflows/R-CMD-check/badge.svg" height="25">
+                </a>
+                <a class="badge" href="https://cran.r-project.org/package=fairmodels">
+                    <img src="https://www.r-pkg.org/badges/version/fairmodels" height="25">
+                </a>
+                <a class="badge" href="https://cran.r-project.org/package=fairmodels">
+                    <img src="https://cranlogs.r-pkg.org/badges/grand-total/fairmodels" height="25">
+                </a>
 
-<div class="card-group" style="width: auto">
-    <div class="row gy-5">
+                <a class="badge" href="http://drwhy.ai/#eXtraAI">
+                    <img src="https://img.shields.io/badge/DrWhy-eXtrAI-4378bf" height="25">
+                </a>
 
-        <div class="col">
-            <a class="custom-card" href="https://arxiv.org/abs/2104.00507">
-                <div class="card h-100">
-                    <img src="img/article.png" class="card-img-top" alt="..." style="height: 60%">
-                    <div class="card-body">
-                        <h5 class="card-title">Article</h5>
-                        <p class="card-text">Article presents R package fairmodels. It describes metrics,
-                            architecture
-                            and
-                            visualizations along with the simple examples</p>
-                    </div>
-                </div>
-            </a>
-        </div>
-
-
-        <div class="col">
-            <a class="custom-card" href="http://fairmodels.drwhy.ai/articles/Basic_tutorial.html">
-                <div class="card h-100">
-                    <img src="img/basic.png" class="card-img-top" alt="..." style="height: 60%">
-                    <div class="card-body">
-                        <h5 class="card-title">Basic tutorial</h5>
-                        <p class="card-text">This tutorial will show why and how to use fairmodels</p>
-                    </div>
-                </div>
-            </a>
-        </div>
-
-        <div class="col">
-            <a class="custom-card" href="http://fairmodels.drwhy.ai/articles/Advanced_tutorial.html">
-                <div class="card h-100">
-                    <img src="img/advanced.png" class="card-img-top" alt="..." style=" height: 60%">
-                    <div class="card-body">
-                        <h5 class="card-title">Advanced tutorial</h5>
-                        <p class="card-text">This tutorial will show how to tackle bias using the bias mitigation
-                            techniques
-                            supported by fairmodels. </p>
-                    </div>
-                </div>
-            </a>
-        </div>
-
-
-        <div class="col">
-            <a class="custom-card" href="http://fairmodels.drwhy.ai/reference/index.html">
-                <div class="card h-100">
-                    <img src="img/doc.png" class="card-img-top" alt="..." style="height: 60%">
-                    <div class="card-body">
-                        <h5 class="card-title">Documentation</h5>
-                        <p class="card-text">All functions with parameter descriptions and simple examples</p>
-                    </div>
-                </div>
-            </a>
-        </div>
-
-        <div class="col">
-            <a class="custom-card" href="https://medium.com/responsibleml/tagged/fairness">
-                <div class="card h-100">
-                    <img src="img/logo_rml.png" class="card-img-top" alt="..." style="height: 60%">
-                    <div class="card-body">
-                        <h5 class="card-title">Blogs</h5>
-                        <p class="card-text">Blogs with fairness tag on our ResponsibleML Medium page</p>
-                    </div>
-                </div>
-            </a>
+            </p>
         </div>
     </div>
+
+    <div class="card-group">
+        <div class="row gy-5">
+
+            <div class="col">
+                <a class="custom-card" href="https://arxiv.org/abs/2104.00507">
+                    <div class="card h-100">
+                        <img src="img/article.png" class="card-img-top" alt="..." style="height: 60%">
+                        <div class="card-body">
+                            <h5 class="card-title">Article</h5>
+                            <p class="card-text">Article presents R package fairmodels. It describes metrics,
+                                architecture
+                                and
+                                visualizations along with the simple examples</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+
+            <div class="col">
+                <a class="custom-card" href="http://fairmodels.drwhy.ai/articles/Basic_tutorial.html">
+                    <div class="card h-100">
+                        <img src="img/basic.png" class="card-img-top" alt="..." style="height: 60%">
+                        <div class="card-body">
+                            <h5 class="card-title">Basic tutorial</h5>
+                            <p class="card-text">This tutorial will show why and how to use fairmodels</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col">
+                <a class="custom-card" href="http://fairmodels.drwhy.ai/articles/Advanced_tutorial.html">
+                    <div class="card h-100">
+                        <img src="img/advanced.png" class="card-img-top" alt="..." style=" height: 60%">
+                        <div class="card-body">
+                            <h5 class="card-title">Advanced tutorial</h5>
+                            <p class="card-text">This tutorial will show how to tackle bias using the bias mitigation
+                                techniques
+                                supported by fairmodels. </p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+
+            <div class="col">
+                <a class="custom-card" href="http://fairmodels.drwhy.ai/reference/index.html">
+                    <div class="card h-100">
+                        <img src="img/doc.png" class="card-img-top" alt="..." style="height: 60%">
+                        <div class="card-body">
+                            <h5 class="card-title">Documentation</h5>
+                            <p class="card-text">All functions with parameter descriptions and simple examples</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col">
+                <a class="custom-card" href="https://medium.com/responsibleml/tagged/fairness">
+                    <div class="card h-100">
+                        <img src="img/logo_rml.png" class="card-img-top" alt="..." style="height: 60%">
+                        <div class="card-body">
+                            <h5 class="card-title">Blogs</h5>
+                            <p class="card-text">Blogs with fairness tag on our ResponsibleML Medium page</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+
 </div>
 
 <footer class="footer mt-auto py-3 bg-light">
@@ -157,7 +159,8 @@
         </p>
     </div>
 </footer>
-
-
 </body>
+
+
+
 </html>
