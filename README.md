@@ -1,4 +1,5 @@
-# jakwisn.github.io
+# [fairmodels landing page](https://fairmodels.drwhy.ai/)
 
-Current use: presentations and other super cool stuff
+Thist is langing page for R package fairmodels developed by [Jakub Wiśniewski](https://www.linkedin.com/in/jakwisn/) and [Przemysław Biecek](https://www.linkedin.com/in/pbiecek/).
 
+Landing page can be accessed via the link: https://fairmodels.drwhy.ai/
